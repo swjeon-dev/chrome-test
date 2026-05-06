@@ -41,6 +41,7 @@ section {
   background-color: rgba(84, 84, 84, 0.5);
 }
 .logout {
+  display: none;
   left: 20px;
 }
 .weather {
@@ -103,4 +104,70 @@ section {
   padding: 10px 20px;
   text-align: center;
   border-radius: 25px;
+}
+
+.todo-form {
+  border-radius: 15px;
+  padding: 20px;
+  display: none;
+  align-items: center;
+  gap: 20px;
+}
+.todo-list {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(84, 84, 84, 0.2);
+  border: 1px solid rgba(180, 180, 180, 0.4);
+  gap: 5px;
+}
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  background-color: rgba(84, 84, 84, 0.4);
+  border: 1px solid rgba(180, 180, 180, 0.7);
+  padding: 20px 30px;
+  text-align: left;
+  border-radius: 25px;
+}
+.todo-button {
+  padding: 10px;
+  background-color: rgba(84, 84, 84, 0.4);
+  border: 1px solid rgba(180, 180, 180, 0.7);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+.completed {
+  text-decoration: line-through;
+  color: rgba(200, 200, 200, 0.7);
+}
+
+.todo-text {
+  flex: 1;
+  text-align: left;
+}
+
+.todo-remove-button,
+.todo-complete-button {
+  padding: 10px 20px;
+  background-color: rgba(84, 84, 84, 0.4);
+  border: 1px solid rgba(180, 180, 180, 0.7);
+  text-align: center;
+  border-radius: 25px;
+  color: inherit;
+  cursor: pointer;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border: 1px solid rgba(180, 180, 180, 0.3);
+  border-radius: 15px;
+  background-color: rgba(84, 84, 84, 0.3);
 }
