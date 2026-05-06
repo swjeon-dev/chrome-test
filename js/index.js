@@ -1,2 +1,3 @@
-import './todo'
-import './weather'
+import './todo.js'
+import './weather.js'
+import './clock.js'
