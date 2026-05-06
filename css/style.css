@@ -1,1 +1,97 @@
 @import './reset.css';
+
+* {
+  box-sizing: border-box;
+  color: white;
+
+  --h1-size: 2.5rem;
+}
+
+h1 {
+  font-size: var(--h1-size);
+}
+input::placeholder {
+  color: rgba(200, 200, 200, 0.5);
+}
+
+body {
+  font-family:
+    --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    sans-serif, Arial, sans-serif;
+  margin: 0;
+  background-color: #755959;
+  padding-top: 100px;
+}
+section {
+  width: 600px;
+  max-width: 70%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.logout,
+.weather {
+  position: fixed;
+  top: 20px;
+  width: max-content;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: rgba(84, 84, 84, 0.5);
+}
+.logout {
+  left: 20px;
+}
+.weather {
+  right: 20px;
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 10px;
+  padding: 15px;
+  text-align: right;
+}
+
+.weather .temp {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.todo-login-input {
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(84, 84, 84, 0.4);
+  border: 1px solid rgba(180, 180, 180, 0.7);
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 25px;
+}
+.todo-login-button {
+  padding: 10px;
+  background-color: rgba(84, 84, 84, 0.4);
+  border: 1px solid rgba(180, 180, 180, 0.7);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 25px;
+}
