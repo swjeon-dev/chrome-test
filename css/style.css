@@ -44,6 +44,7 @@ section {
   left: 20px;
 }
 .weather {
+  opacity: 0;
   right: 20px;
 }
 .weather {
