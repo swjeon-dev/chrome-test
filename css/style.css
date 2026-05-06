@@ -71,6 +71,14 @@ section {
   align-items: center;
   gap: 10px;
 }
+.clock .time {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.clock .date {
+  font-size: 1.25rem;
+}
 
 .todo-login-form {
   display: flex;
