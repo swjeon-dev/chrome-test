@@ -75,7 +75,7 @@ function loadTodoList() {
   if (todoList.length === 0) {
     todoListEl.style.display = 'none'
   } else {
-    todoListEl.style.display = 'block'
+    todoListEl.style.display = 'flex'
   }
 }
 

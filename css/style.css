@@ -114,15 +114,15 @@ section {
   gap: 20px;
 }
 .todo-list {
-  display: none;
+  display: flex;
   flex-direction: column;
+  gap: 5px;
   list-style: none;
   margin: 0;
   padding: 20px;
   border-radius: 15px;
   background-color: rgba(84, 84, 84, 0.2);
   border: 1px solid rgba(180, 180, 180, 0.4);
-  gap: 5px;
 }
 .todo-input {
   flex: 1;
